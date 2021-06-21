@@ -1,0 +1,64 @@
+2021-03-09 18:04:01 - costcoCrawler.py - INFO - Category:901
+2021-03-09 18:04:02 - costcoCrawler.py - INFO - Page:1
+2021-03-09 18:04:02 - costcoCrawler.py - INFO - totalPages:2
+2021-03-09 18:04:02 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Darling-3-IN-1-Coffee-30G-X-80-Count/p/174199
+2021-03-09 18:04:02 - costcoCrawler.py - INFO - Save Company:德林國際有限公司
+2021-03-09 18:04:02 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Darling-3-IN-1-Coffee-30G-X-80-Count/p/174199
+2021-03-09 18:04:02 - costcoCrawler.py - ERROR - ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]接近 'panys005' 之處的語法不正確。 (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]陳述式無法準備。 (8180)")
+2021-03-09 18:04:02 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/PGi-CUISINE-DE-CHEF-Barley-with-Collagen-Drink-30G-X-30-Counts/p/37693
+2021-03-09 18:04:03 - costcoCrawler.py - INFO - Save Company:品臻國際行銷有限公司
+2021-03-09 18:04:03 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/PGi-CUISINE-DE-CHEF-Barley-with-Collagen-Drink-30G-X-30-Counts/p/37693
+2021-03-09 18:04:03 - costcoCrawler.py - ERROR - ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]接近 'panys005' 之處的語法不正確。 (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]陳述式無法準備。 (8180)")
+2021-03-09 18:04:03 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Barista-Yorkshire-Milk-Tea-25G-X-100PK/p/56877
+2021-03-09 18:04:03 - costcoCrawler.py - INFO - Save Company:馥餘實業股份有限公司
+2021-03-09 18:04:03 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Barista-Yorkshire-Milk-Tea-25G-X-100PK/p/56877
+2021-03-09 18:04:03 - costcoCrawler.py - ERROR - ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]接近 'panys005' 之處的語法不正確。 (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]陳述式無法準備。 (8180)")
+2021-03-09 18:04:03 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Water-Beverages/AGV-Oatmeal-Drink-340Ml-X-12-Count/p/97313
+2021-03-09 18:04:03 - costcoCrawler.py - INFO - Save Company:愛之味股份有限公司
+2021-03-09 18:04:03 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Water-Beverages/AGV-Oatmeal-Drink-340Ml-X-12-Count/p/97313
+2021-03-09 18:04:03 - costcoCrawler.py - ERROR - ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]接近 'panys005' 之處的語法不正確。 (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]陳述式無法準備。 (8180)")
+2021-03-09 18:04:03 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Water-Beverages/Evian-Mineral-Water-1250ml-X-12-Count/p/117407
+2021-03-09 18:04:04 - costcoCrawler.py - INFO - Save Company:泰德利股份有限公司
+2021-03-09 18:04:04 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Water-Beverages/Evian-Mineral-Water-1250ml-X-12-Count/p/117407
+2021-03-09 18:04:04 - costcoCrawler.py - ERROR - ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]接近 'panys005' 之處的語法不正確。 (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]陳述式無法準備。 (8180)")
+2021-03-09 18:04:04 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Water-Beverages/Aberfoyle-Spring-Water-15L-X-12-Count/p/114729
+2021-03-09 18:04:04 - costcoCrawler.py - INFO - Save Company:好市多股份有限公司
+2021-03-09 18:04:04 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Water-Beverages/Aberfoyle-Spring-Water-15L-X-12-Count/p/114729
+2021-03-09 18:04:04 - costcoCrawler.py - ERROR - ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]接近 'panys005' 之處的語法不正確。 (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]陳述式無法準備。 (8180)")
+2021-03-09 18:04:04 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Water-Beverages/San-Pellegrino-Sparkling-Water-750ml-X-12-Count/p/56076
+2021-03-09 18:04:05 - costcoCrawler.py - INFO - Save Company:欣臨企業股份有限公司
+2021-03-09 18:04:05 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Water-Beverages/San-Pellegrino-Sparkling-Water-750ml-X-12-Count/p/56076
+2021-03-09 18:04:05 - costcoCrawler.py - ERROR - ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]接近 'panys005' 之處的語法不正確。 (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]陳述式無法準備。 (8180)")
+2021-03-09 18:04:05 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/CALBEE-FRUIT-GRANOLA-1KG/p/216971
+2021-03-09 18:04:05 - costcoCrawler.py - INFO - Save Company:好市多股份有限公司
+2021-03-09 18:04:05 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/CALBEE-FRUIT-GRANOLA-1KG/p/216971
+2021-03-09 18:04:05 - costcoCrawler.py - ERROR - ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]接近 'panys005' 之處的語法不正確。 (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]陳述式無法準備。 (8180)")
+2021-03-09 18:04:05 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Barista-2-In-1-Coffee-21g-X-100-CountPack/p/109399
+2021-03-09 18:04:05 - costcoCrawler.py - INFO - Save Company:馥餘實業股份有限公司
+2021-03-09 18:04:05 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Barista-2-In-1-Coffee-21g-X-100-CountPack/p/109399
+2021-03-09 18:04:05 - costcoCrawler.py - ERROR - ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]接近 'panys005' 之處的語法不正確。 (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]陳述式無法準備。 (8180)")
+2021-03-09 18:04:05 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/Quaker-Black-Bean-Sesame-38G-X-50-Pack/p/84592
+2021-03-09 18:04:06 - costcoCrawler.py - INFO - Save Company:佳格食品股份有限公司
+2021-03-09 18:04:06 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/Quaker-Black-Bean-Sesame-38G-X-50-Pack/p/84592
+2021-03-09 18:04:06 - costcoCrawler.py - ERROR - ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]接近 'panys005' 之處的語法不正確。 (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]陳述式無法準備。 (8180)")
+2021-03-09 18:04:06 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Kirkland-Signature-House-Blend-Coffee-113Kg/p/6979000
+2021-03-09 18:04:06 - costcoCrawler.py - INFO - Save Company:好市多股份有限公司
+2021-03-09 18:04:06 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Kirkland-Signature-House-Blend-Coffee-113Kg/p/6979000
+2021-03-09 18:04:06 - costcoCrawler.py - ERROR - ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]接近 'panys005' 之處的語法不正確。 (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]陳述式無法準備。 (8180)")
+2021-03-09 18:04:06 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Magnum-Organic-Rainforest-Blend-Coffee-907G/p/676047
+2021-03-09 18:04:06 - costcoCrawler.py - INFO - Save Company:好市多股份有限公司
+2021-03-09 18:04:06 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Magnum-Organic-Rainforest-Blend-Coffee-907G/p/676047
+2021-03-09 18:04:06 - costcoCrawler.py - ERROR - ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]接近 'panys005' 之處的語法不正確。 (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]陳述式無法準備。 (8180)")
+2021-03-09 18:04:06 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Barista-Premium-Drip-Coffee-12G-X-50-Count/p/101940
+2021-03-09 18:04:07 - costcoCrawler.py - INFO - Save Company:馥餘實業股份有限公司
+2021-03-09 18:04:07 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Barista-Premium-Drip-Coffee-12G-X-50-Count/p/101940
+2021-03-09 18:04:07 - costcoCrawler.py - ERROR - ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]接近 'panys005' 之處的語法不正確。 (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]陳述式無法準備。 (8180)")
+2021-03-09 18:04:07 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Water-Beverages/Perrier-Sparkling-Water-500ml-X-24-Count/p/34405
+2021-03-09 18:04:07 - costcoCrawler.py - INFO - Save Company:達立餐飲有限公司
+2021-03-09 18:04:07 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Water-Beverages/Perrier-Sparkling-Water-500ml-X-24-Count/p/34405
+2021-03-09 18:04:07 - costcoCrawler.py - ERROR - ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]接近 'panys005' 之處的語法不正確。 (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]陳述式無法準備。 (8180)")
+2021-03-09 18:04:07 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/Fernleaf-Milk-Powder-Full-Cream-26Kg/p/79922
+2021-03-09 18:04:07 - costcoCrawler.py - INFO - Save Company:香港商遠東恆天然乳品有限公司台灣分公司
+2021-03-09 18:04:07 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/Fernleaf-Milk-Powder-Full-Cream-26Kg/p/79922
+2021-03-09 18:04:07 - costcoCrawler.py - ERROR - ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]接近 'panys005' 之處的語法不正確。 (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]陳述式無法準備。 (8180)")
+2021-03-09 18:04:07 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Coffee-Tea/UCC-Drip-Coffee-7G-X-75-Count/p/398703

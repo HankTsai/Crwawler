@@ -1,0 +1,82 @@
+2021-03-09 17:57:21 - costcoCrawler.py - INFO - Category:901
+2021-03-09 17:57:22 - costcoCrawler.py - INFO - Page:1
+2021-03-09 17:57:22 - costcoCrawler.py - INFO - totalPages:2
+2021-03-09 17:57:22 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Darling-3-IN-1-Coffee-30G-X-80-Count/p/174199
+2021-03-09 17:57:22 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Darling-3-IN-1-Coffee-30G-X-80-Count/p/174199
+2021-03-09 17:57:22 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:22 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/PGi-CUISINE-DE-CHEF-Barley-with-Collagen-Drink-30G-X-30-Counts/p/37693
+2021-03-09 17:57:23 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/PGi-CUISINE-DE-CHEF-Barley-with-Collagen-Drink-30G-X-30-Counts/p/37693
+2021-03-09 17:57:23 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:23 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Barista-Yorkshire-Milk-Tea-25G-X-100PK/p/56877
+2021-03-09 17:57:23 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Barista-Yorkshire-Milk-Tea-25G-X-100PK/p/56877
+2021-03-09 17:57:23 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:23 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Water-Beverages/AGV-Oatmeal-Drink-340Ml-X-12-Count/p/97313
+2021-03-09 17:57:24 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Water-Beverages/AGV-Oatmeal-Drink-340Ml-X-12-Count/p/97313
+2021-03-09 17:57:24 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:24 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Water-Beverages/Evian-Mineral-Water-1250ml-X-12-Count/p/117407
+2021-03-09 17:57:24 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Water-Beverages/Evian-Mineral-Water-1250ml-X-12-Count/p/117407
+2021-03-09 17:57:24 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:24 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Water-Beverages/Aberfoyle-Spring-Water-15L-X-12-Count/p/114729
+2021-03-09 17:57:24 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Water-Beverages/Aberfoyle-Spring-Water-15L-X-12-Count/p/114729
+2021-03-09 17:57:24 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:24 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Water-Beverages/San-Pellegrino-Sparkling-Water-750ml-X-12-Count/p/56076
+2021-03-09 17:57:25 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Water-Beverages/San-Pellegrino-Sparkling-Water-750ml-X-12-Count/p/56076
+2021-03-09 17:57:25 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:25 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/CALBEE-FRUIT-GRANOLA-1KG/p/216971
+2021-03-09 17:57:25 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/CALBEE-FRUIT-GRANOLA-1KG/p/216971
+2021-03-09 17:57:25 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:25 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Barista-2-In-1-Coffee-21g-X-100-CountPack/p/109399
+2021-03-09 17:57:25 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Barista-2-In-1-Coffee-21g-X-100-CountPack/p/109399
+2021-03-09 17:57:25 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:25 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/Quaker-Black-Bean-Sesame-38G-X-50-Pack/p/84592
+2021-03-09 17:57:26 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/Quaker-Black-Bean-Sesame-38G-X-50-Pack/p/84592
+2021-03-09 17:57:26 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:26 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Kirkland-Signature-House-Blend-Coffee-113Kg/p/6979000
+2021-03-09 17:57:26 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Kirkland-Signature-House-Blend-Coffee-113Kg/p/6979000
+2021-03-09 17:57:26 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:26 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Magnum-Organic-Rainforest-Blend-Coffee-907G/p/676047
+2021-03-09 17:57:27 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Magnum-Organic-Rainforest-Blend-Coffee-907G/p/676047
+2021-03-09 17:57:27 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:27 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Barista-Premium-Drip-Coffee-12G-X-50-Count/p/101940
+2021-03-09 17:57:27 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Barista-Premium-Drip-Coffee-12G-X-50-Count/p/101940
+2021-03-09 17:57:27 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:27 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Water-Beverages/Perrier-Sparkling-Water-500ml-X-24-Count/p/34405
+2021-03-09 17:57:27 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Water-Beverages/Perrier-Sparkling-Water-500ml-X-24-Count/p/34405
+2021-03-09 17:57:27 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:27 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/Fernleaf-Milk-Powder-Full-Cream-26Kg/p/79922
+2021-03-09 17:57:28 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/Fernleaf-Milk-Powder-Full-Cream-26Kg/p/79922
+2021-03-09 17:57:28 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:28 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Coffee-Tea/UCC-Drip-Coffee-7G-X-75-Count/p/398703
+2021-03-09 17:57:28 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Coffee-Tea/UCC-Drip-Coffee-7G-X-75-Count/p/398703
+2021-03-09 17:57:28 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:28 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Kirkland-Signature-Organic-Ethiopia-Coffee-Bean-907G/p/1217294
+2021-03-09 17:57:28 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Kirkland-Signature-Organic-Ethiopia-Coffee-Bean-907G/p/1217294
+2021-03-09 17:57:28 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:28 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Starbucks-Via-Pike-Place-Instant-Coffee-21G-X-26-Pack/p/125971
+2021-03-09 17:57:28 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Starbucks-Via-Pike-Place-Instant-Coffee-21G-X-26-Pack/p/125971
+2021-03-09 17:57:28 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:28 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Kirkland-Signature-Espresso-Bean-113Kg/p/6979200
+2021-03-09 17:57:29 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Kirkland-Signature-Espresso-Bean-113Kg/p/6979200
+2021-03-09 17:57:29 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:29 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Swiss-Miss-Hot-Cocoa-Mix-Milk-Chocolate-Flavor-28G-X-60-Count/p/479946
+2021-03-09 17:57:29 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Coffee-Tea/Swiss-Miss-Hot-Cocoa-Mix-Milk-Chocolate-Flavor-28G-X-60-Count/p/479946
+2021-03-09 17:57:29 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:29 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Water-Beverages/San-Pellegrino-Sparkling-Water-250ml-X-24-Count/p/109326
+2021-03-09 17:57:29 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Water-Beverages/San-Pellegrino-Sparkling-Water-250ml-X-24-Count/p/109326
+2021-03-09 17:57:29 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:29 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Water-Beverages/Quaker-Organic-Oat-Drink-300ML-X-12CT/p/121461
+2021-03-09 17:57:29 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Water-Beverages/Quaker-Organic-Oat-Drink-300ML-X-12CT/p/121461
+2021-03-09 17:57:29 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:29 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Water-Beverages/Klim-Walnut-Milk-198Ml-X-24-Pack/p/130441
+2021-03-09 17:57:30 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Water-Beverages/Klim-Walnut-Milk-198Ml-X-24-Pack/p/130441
+2021-03-09 17:57:30 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:30 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Water-Beverages/Calpis-Water-330ml-X-24-Count/p/76899
+2021-03-09 17:57:30 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Water-Beverages/Calpis-Water-330ml-X-24-Count/p/76899
+2021-03-09 17:57:30 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:30 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/Quaker-Golden-Flake-Oats-17Kg/p/108128
+2021-03-09 17:57:30 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/Quaker-Golden-Flake-Oats-17Kg/p/108128
+2021-03-09 17:57:30 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:30 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/Quaker-Organic-Whole-Oats-935G-X-2CT/p/116958
+2021-03-09 17:57:30 - costcoCrawler.py - ERROR - URL:https://www.costco.com.tw/Food/Drink/Powdered-Drink-Mix-Cereal/Quaker-Organic-Whole-Oats-935G-X-2CT/p/116958
+2021-03-09 17:57:30 - costcoCrawler.py - ERROR - ('IM002', '[IM002] [Microsoft][ODBC 驅動程式管理員] 找不到資料來源名稱且未指定預設的驅動程式 (0) (SQLDriverConnect)')
+2021-03-09 17:57:30 - costcoCrawler.py - INFO - Product:https://www.costco.com.tw/Food/Drink/Water-Beverages/FIJI-Natural-Artesian-Water-330ml-X-36-Count/p/109255
