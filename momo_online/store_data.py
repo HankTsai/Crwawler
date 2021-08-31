@@ -5,10 +5,11 @@ from crawler_conf import CrawlerLogger
 logger = CrawlerLogger()
 
 def save_company_info(db_connection, company_info):
+    print(company_info)
     company_guid = BIASDataIO.CheckCompanyMappingList(db_connection, company_info["factory_name"], NewCompanyGUID=False)
     if company_guid == "":
         company_guid = PublicFun.createID()
-    try: companys = Engine.Query(db_connection, Companys.Companys(), "GUID=?", (company_guid))
+    try: companys = Engine.Query(db_connection, Companys.Companys(), "GUID=?", company_guid)
     except Exception as message: logger.logger.error(message)
 
     if companys.GUID == "":
@@ -24,22 +25,25 @@ def save_company_info(db_connection, company_info):
     return company_guid
 
 
-def save_product_info(db_connection, company_guid, product_info):
+def save_product_info(db_connection, company_guid, product_info, file_name):
     product_guid = check_product_info(db_connection, company_guid, product_info["product_name"])
+    print(product_info)
     if not product_guid:
         insert_sql = ("INSERT INTO CompanyProduct(GUID, CompanyProduct001,CompanyProduct002,CompanyProduct003,CompanyProduct004,"
-                      "CompanyProduct005,CompanyProduct006, D_INSERTUSER, D_INSERTTIME)"
-                      " VALUES (?,?,?,?,?,?,?,?,?)")
+                      "CompanyProduct005,CompanyProduct006, CompanyProduct007, CompanyProduct008, D_INSERTUSER, D_INSERTTIME)"
+                      " VALUES (?,?,?,?,?,?,?,?,?,?,?)")
         try:
             db_connection.Execute(insert_sql, (PublicFun.createID(),company_guid, "Momo", product_info.get("product_name",''), product_info.get("product_format",''),
-                                               product_info.get("other_info",''), product_info.get("product_place",''), "MomoCrawler", PublicFun.getNowDateTime("YYYY/MM/DD HH:MM:SS")))
-            # logger.logger.info("Insert")
+                                  product_info.get("other_info",''), product_info.get("product_place",''), product_info.get("brand_name",''), file_name, "MomoCrawler", PublicFun.getNowDateTime("YYYY/MM/DD HH:MM:SS")))
+            logger.logger.info("Insert")
+            print(file_name)
         except Exception as message:
             logger.logger.error(message); pass
     else:
-        update_sql = "UPDATE CompanyProduct set D_MODIFYUSER = ?, D_MODIFYTIME = ? WHERE GUID = ?"
+        update_sql = "UPDATE CompanyProduct set CompanyProduct003=?,CompanyProduct004=?,CompanyProduct005=?,CompanyProduct006=?,CompanyProduct007=?,CompanyProduct008=?, D_MODIFYUSER=?, D_MODIFYTIME=? WHERE GUID = ?"
         try:
-            db_connection.Execute(update_sql,("MomoCrawler", PublicFun.getNowDateTime("YYYY/MM/DD HH:MM:SS"), product_guid))
+            db_connection.Execute(update_sql,(product_info.get("product_name",''), product_info.get("product_format",''),
+                                  product_info.get("other_info",''), product_info.get("product_place",''), product_info.get("brand_name",''), file_name, "MomoCrawler", PublicFun.getNowDateTime("YYYY/MM/DD HH:MM:SS"), product_guid))
             # logger.logger.info("Update")
         except Exception as message:
             logger.logger.error(message); pass

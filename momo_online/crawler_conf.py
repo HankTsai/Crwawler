@@ -45,9 +45,8 @@ class GeneralConfig:
         # self.random_ip = lambda: random.sample(self.fake_proxy,1)[0][0]
         self.threadloacl = threading.local()
         self.total_brand_link = {}
-        self.cate_type = {'日常用品':'daily_necessities','美妝清潔':'cosmetic_clean','食品飲料':'food_drink'}
+        self.cate_file_name = {'日常用品':'product_daily_necessities','美妝清潔':'product_cosmetic_clean','食品飲料':'product_food_drink'}
         self.brand_file = 'target_brand_file.json'
-        self.point_type = "product_food_drink"
         self.target = {"日常用品": {'個人用品': {}, '家用清潔': {}, '生活百貨': {}, '餐廚用品': {}},
                        "美妝清潔": {'臉部保養': {}, '彩妝/用品': {}, '香氛/SPA': {}, '身體/嬰幼保養': {}, '個人清潔': {}, '洗髮沐浴': {}, '洗臉/口腔': {}},
                        "食品飲料": {'養生/保健': {}, '零食/點心': {}, '飲料/沖泡': {}, '民生食材/南北貨': {}, '生鮮/低溫': {}}}
@@ -85,7 +84,7 @@ class RequestsConf:
         """requests.get setting """
         for _ in range(3):
             try:
-                respond = self.session.get(url=url,headers=self.headers, timeout=8)
+                respond = self.session.get(url=url,headers=self.headers, timeout=30)
                 html = etree.HTML(respond.text)
                 self.connect_error = 0
                 return html
@@ -96,7 +95,6 @@ class RequestsConf:
                     self.headers['User-Agent'] = GeneralConfig().random_ua()
                     print(self.headers['User-Agent'])
                     time.sleep(5)
-                CrawlerLogger().logger.error(message)
         return None
 
 

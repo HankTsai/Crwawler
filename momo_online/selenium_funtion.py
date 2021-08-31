@@ -45,6 +45,7 @@ def selenium_get_target_brand(error_name, url):
             brand_show = driver.find_elements_by_xpath('//li[@class="cateS"]//h2//label')
             brand_hide = driver.find_elements_by_xpath('//li[@class="cateS hide"]//h2//label')
             brand = [item.text for item in brand_show+brand_hide]
+            logger.logger.info(error_name)
             return brand
         except WebDriverException as message:
             logger.logger.error(f'{error_name}:{message}')
@@ -76,22 +77,23 @@ def selenium_get_product_link(brand):
 
     while turn_page:
         time.sleep(2)
-        html = etree.HTML(driver.page_source)
-        product_link = html.xpath('//article[@class="prdListArea"]//li//a/@href')
-        for link in product_link:
-            tmp_brand_link.append(request_conf.mobile_url + link)
-
-        cur_page = re.search(r'curPage=\d+', driver.current_url).group(0)
-        max_page = re.search(r'maxPage=\d+', driver.current_url).group(0)
-        if not cur_page[8] == max_page[8]:
-            try:
+        try:
+            html = etree.HTML(driver.page_source)
+            product_link = html.xpath('//article[@class="prdListArea"]//li//a/@href')
+            for link in product_link:
+                tmp_brand_link.append(request_conf.mobile_url + link)
+            cur_page = re.search(r'curPage=\d+', driver.current_url).group(0)
+            max_page = re.search(r'maxPage=\d+', driver.current_url).group(0)
+            if not cur_page[8] == max_page[8]:
                 page = driver.find_element_by_xpath('//div[@class="pageArea"]//dl//dt[@id="rightBtn"]//a')
                 driver.execute_script("arguments[0].scrollIntoView(true);", page)
                 WebDriverWait(driver, 2).until(expected_conditions.element_to_be_clickable(
                     (By.XPATH, '//div[@class="pageArea"]//dl//dt[@id="rightBtn"]//a'))).click()
-            except:
-                logger.logger.warning(f'{brand} page may miss'); break
-        else: turn_page = False
+            else: turn_page = False
+        except Exception as e:
+            logger.logger.warning(f'{brand} page may miss')
+            logger.logger.error(e)
+            turn_page = False
 
     if tmp_brand_link:
         logger.logger.info(f'{brand} / {len(tmp_brand_link)}')

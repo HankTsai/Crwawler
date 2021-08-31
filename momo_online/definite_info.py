@@ -9,7 +9,7 @@ def definite_product_info(link):
     product_info = {}; info_list = []
     try:
         page = request_conf.get_html(link)
-        name = page.xpath('//h3[@id="goodsName"]/text()')
+        name = page.xpath('//p[contains(@class,"fprdTitle")]/text()')
         brand_name = re.search(r'【.*】', name[0]).group(0)
         product_info['brand_name'] = brand_name[1:-1]
         product_name = re.search(r'】.*', name[0]).group(0)
@@ -49,8 +49,7 @@ def definite_detail_info(link):
                     else: other_info.append(value)
             except AttributeError:pass
         product_info['other_info'] = "".join(other_info)
-
-    return company_info, product_info
+    return [company_info, product_info]
 
 
 
